@@ -85,3 +85,26 @@ const moo = (string) => {
 moo(cow)
 moo('duck')
 
+// Make a variable that holds a person's age. Be semantic.
+
+var age = 0;
+age = (num) => {
+    age = `You are ${num} years old`;
+    console.log(age);
+}
+age(num);
+
+// Write code that will print out "Here are the keys!", if the age is 16 years or older, or, if the age is younger than 16, a message should print "Sorry, you're too young."
+
+var age = 0;
+car = (num) => {
+    if (16 < num){
+        console.log(`Here are the keys!`);
+    } else {
+        console.log(`Sorry, you're too young`);
+    }
+}
+car(16);
+car(17);
+car(1);
+
