@@ -228,3 +228,14 @@ natural(1000);
 // You just solved Project Euler problem 1!
 
 // Are you having dejà vu? This just in! From the "Read the entire problem before you start" dept: This problem was on a previous assignment. You may skip it if you've already done it, just include a comment saying that you've already done it. If you've now done the problem twice, perhaps next time you'll read the whole problem before starting it.
+
+
+// A. Talk about it:
+// What are the things in an array called?
+index
+
+// Do Arrays guarantee those things will be in order?
+no, you must sort. only order is how the index arrived
+
+// What real-life thing could you model with an array?
+categories or objects
