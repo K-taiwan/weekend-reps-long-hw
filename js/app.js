@@ -484,3 +484,20 @@ isVowel("E");
 isVowel("b");
 isVowel("c");
 isVowel("U");
+
+// E. getTwoLengths
+// Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
+
+// console.log(getTwoLengths("Hank", "Hippopopalous"));
+// => [4, 13]
+
+const getTwoLengths = (str1, str2) => {
+    let one = str1.length;
+    let two = str2.length;
+    let array = `[${one}, ${two}]`;
+    console.log(array);
+}
+
+getTwoLengths("Hank", "Hippopopalous");
+
+getTwoLengths("lost now", "hello there peoples");
