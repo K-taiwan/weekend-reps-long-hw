@@ -633,3 +633,16 @@ const getRandomElement = (x) => {
 }
 getRandomElement(quotes);
 
+// Let's set up an object data structure. Let's say we have a website that sells products, and we have a user of our website, and we want to store that user's data. The object data structure is a good way to organize the data from our user.
+
+// A. Make a user object
+// Create an object called user.
+// Write in to the object the key-value pairs for name, email, age, and purchased. Set the value of purchased to an empty array []. Set the other values to whatever you would like.
+
+var person = {
+    name: "Sam",
+    email: "sam@yahoo.com",
+    age: 50,
+    purchased: []
+  };
+  
