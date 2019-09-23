@@ -603,3 +603,33 @@ const reverseWordOrder = (string) => {
 reverseWordOrder("Ishmael me Call");
 reverseWordOrder("I use Lâncome on my comb");
 
+// K. Get down and dirty with Math.random()
+// Write a function that will return a random integer between 1 and 10. Test it.
+const randomFunc = (x) => {
+    console.log(Math.floor(Math.random() * (x + 1)));
+}
+randomFunc(10);
+// Write a function that will return a random integer between 10 and 100. Test it.
+const randomFunc = (x,y) => {
+    console.log(Math.floor(Math.random() * (x - y + 1)));
+}
+randomFunc(100,10);
+// Write a function that will return a random number between 532 and 13267. Test it.
+const randomFunc = (x,y) => {
+    console.log(Math.floor(Math.random() * (x - y + 1)));
+}
+randomFunc(13267,532);
+// Write a function that will return a random number between 1 and 10. Test it.
+const randomFunc = (x) => {
+    console.log(Math.floor(Math.random() * (x + 1)));
+}
+randomFunc(10);
+// Add a few more quotes to the quotes array from question III-B-1 above. Write a function that will take an array as a parameter, and return a random element from that array. Call your function a few times, passing in the quotes array. Give it a nice semantic name like getRandomElement.
+const quotes = ['hello to me', 'say hi', 'what time is it'];
+
+const getRandomElement = (x) => {
+    var randomItem = quotes[Math.floor(Math.random()*quotes.length)];
+    console.log(randomItem);
+}
+getRandomElement(quotes);
+
