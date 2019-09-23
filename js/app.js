@@ -661,3 +661,17 @@ person.location = "London, England";
 console.log(person);
 
 // Without changing the original user object, add a new key location to the object, and give it a value or some-or-other location (a string).
+
+// D. Shopaholic!
+// Our user has purchased an item! They have purchased some "carbohydrates". Using .push(), add the string "carbohydrates" to the purchased array.
+// Our user has purchased an item! They have purchased some "peace of mind". Using .push(), add the string "peace of mind" to the purchased array.
+// Our user has purchased an item! They have purchased some "Merino jodhpurs". Using .push(), add the string "Merino jodhpurs" to the purchased array.
+// Console.log just the "Merino jodhpurs" from the purchased array.
+person.purchased.push("carbohydrates");
+person.purchased.push("peace of mind");
+person.purchased.push("MErino jodhpurs");
+console.log(person);
+person['purchased'].push('carbohydrates');
+person['purchased'].push('peace of mind');
+person['purchased'].push('Merino jodhpurs');
+console.log(person);
