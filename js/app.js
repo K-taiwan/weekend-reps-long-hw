@@ -243,3 +243,16 @@ categories or objects
 // B. Easy Does It
 // Create an array that contains three quotes and store it in a variable called quotes.
 const quotes = ['hello to me', 'say hi', 'what time is it'];
+
+// C. Accessing elements
+// Given the following array const randomThings = [1, 10, "Hello", true]
+// How do you access the 1st element in the array?
+const randomThings = [1, 10, "Hello", true];
+console.log(randomThings[0]);
+
+// Change the value of "Hello" to "World".
+randomThings[2] = "World";
+console.log(randomThings);
+
+// Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
+console.log(randomThings);
