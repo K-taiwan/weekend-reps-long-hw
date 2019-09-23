@@ -239,3 +239,7 @@ no, you must sort. only order is how the index arrived
 
 // What real-life thing could you model with an array?
 categories or objects
+
+// B. Easy Does It
+// Create an array that contains three quotes and store it in a variable called quotes.
+const quotes = ['hello to me', 'say hi', 'what time is it'];
