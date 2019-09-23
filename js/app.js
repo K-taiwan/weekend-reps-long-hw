@@ -256,3 +256,17 @@ console.log(randomThings);
 
 // Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
 console.log(randomThings);
+
+// D. Change values
+// Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+// What would you write to access the 3rd element of the array?
+console.log(ourClass[2]);
+
+// Change the value of "Github" to "Octocat"
+ourClass[4] = "Octocat";
+console.log(ourClass);
+
+// Add a new element, "Cloud City" to the array.
+ourClass.push("Cloud City");
+console.log(ourClass);
