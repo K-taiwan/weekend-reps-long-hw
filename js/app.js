@@ -446,3 +446,16 @@ const printCool = (string) => {
     
 }
 printCool("Captain Reynolds");
+
+// C. calculateCube
+// Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
+
+// console.log(calculateCube(5));
+// => 125
+
+const calculateCube = (volume) => {
+    let cube = Math.pow(volume, 3);
+    console.log(cube);
+}
+calculateCube(5);
+
