@@ -700,6 +700,9 @@ var person = {
     age: 50,
     purchased: []
 };
+person.purchased.push("carbohydrates");
+person.purchased.push("peace of mind");
+person.purchased.push("Merino jodhpurs");
 person.friend={
     name: "Grace Hopper",
     age: 20,
@@ -714,4 +717,14 @@ person.friend.purchased.push("The One Ring");
 console.log(person.friend.purchased);
 person.friend.purchased.push("A Latte");
 console.log(person.friend.purchased[1]);
+
+// F. Loops
+// Write a for loop that iterates over the User's purchased array (NOT the friend's purchased array), and prints each element to the console.
+for(let i = 0; i < person.purchased.length; i++){
+    console.log(person.purchased[i]);
+}
+// Write a for loop that iterates over the Friend's purchased array, and prints each element to the console.
+for(let i = 0; i < person.friend.purchased.length; i++){
+    console.log(person.friend.purchased[i]);
+}
 
