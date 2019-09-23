@@ -646,3 +646,10 @@ var person = {
     purchased: []
   };
   
+//   B. Update the user
+// Our user has changed his or her email address. Without changing the original user object, update the email value to a new email address.
+// Our user has had a birthday! Without changing the original user object, increment the age value using the postfix operator. Hint: age++
+
+person.email = "sam@gmail.com";
+console.log(person);
+person.age++;
