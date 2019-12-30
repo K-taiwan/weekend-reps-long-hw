@@ -745,3 +745,12 @@ console.log(person.age);
 console.log(person.name.toUpperCase());
 
 // Write a function oldAndLoud that performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our user object, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoud function with user as the argument.
+function oldAndLoud(person){
+    person.age++;
+    person.name = person.name.toUpperCase();
+};
+console.log(oldAndLoud.person.age);
+console.log(oldAndLoud.person.name);
+updateUser();
+console.log(oldAndLoud.person.age);
+console.log(oldAndLoud.person.name.toUpperCase());
